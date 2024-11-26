@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - TVFilmes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="main">
+        <img src="images/logo/logo.png" alt="TVFilmes Logo" class="logo">
+        <h1>Quiz - TVFilmes</h1>
+        <button id="play-button">Play</button>
+    </div>
+
+    <div id="quiz-container" class="hidden">
+        <div id="typing-text"></div>
+        <div id="question-section" class="hidden">
+            <p id="question"></p>
+            <div class="options">
+                <button class="option" data-index="0"></button>
+                <button class="option" data-index="1"></button>
+            </div>
+        </div>
+    </div>
+
+    <div id="result-container" class="hidden">
+        <h2>Seu Resultado</h2>
+        <p id="score"></p>
+        <button id="restart-button">Reiniciar</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
